@@ -22,5 +22,18 @@ print(f)
 print(g)
 print(h)
 
+# \n == enter
 multiline = "Life is too short\n you need python"
 print(multiline)
+
+# import mod1
+# print(mod1.add(5,3))
+# print(mod1.sub(5,3))
+
+# from mod1 import add
+# print(add(3,7))
+
+# * : 모두
+from mod1 import *
+print(add(3,7))
+print(sub(3,7))
